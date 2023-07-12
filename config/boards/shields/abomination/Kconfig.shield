@@ -1,0 +1,5 @@
+config SHIELD_ABOMINATION_LEFT
+    def_bool $(shields_list_contains,abomination_left)
+
+config SHIELD_ABOMINATION_RIGHT
+    def_bool $(shields_list_contains,abomination_right)
