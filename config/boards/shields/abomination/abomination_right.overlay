@@ -1,4 +1,4 @@
-#include "chipper.dtsi"
+#include "abomination.dtsi"
 
 &five_column_transform {
 	col-offset = <6>;
