@@ -14,7 +14,7 @@
         tri_layer {
             if-layers = <1 2>;
             then-layer = <3>;
-        }
+        };
     };
 
     macros {
@@ -136,7 +136,7 @@
                          &trans &trans &trans   &trans &trans &trans
             >;
             label = "Function";
-        }
+        };
 
         gaming_layer {
 // -----------------------------------------------------------------------------------------
