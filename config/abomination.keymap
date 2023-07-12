@@ -21,6 +21,7 @@
         ws: workspace_shift {
             label = "ZM_workspace_shift";
             compatible = "zmk,behavior-macro-one-param";
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL &kp K_APP>
                 , <&macro_param_1to1>
@@ -32,6 +33,7 @@
         workspace_left: workspace_left {
             label = "ZM_workspace_left";
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL &kp K_APP>
                 , <&macro_press &kp LEFT>
@@ -42,6 +44,7 @@
         workspace_right: workspace_right {
             label = "ZM_workspace_right";
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LCTRL &kp K_APP>
                 , <&macro_press &kp RIGHT>
@@ -52,6 +55,7 @@
         alt_f4: alt_f4 {
             label = "ZM_alt_f4";
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&macro_tap &kp LALT &kp F4>
                 ;
@@ -60,6 +64,7 @@
         gbp: gbp_symbol {
             label = "ZM_gbp_symbol";
             compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
             bindings
                 = <&macro_press &kp LALT>
                 , <&macro_tap &kp N1>
