@@ -61,7 +61,7 @@
             label = "ZM_gbp_symbol";
             compatible = "zmk,behavior-macro";
             bindings
-                = <&macro_down &kp LALT>
+                = <&macro_press &kp LALT>
                 , <&macro_tap &kp N1>
                 , <&macro_tap &kp N5>
                 , <&macro_tap &kp N6>
