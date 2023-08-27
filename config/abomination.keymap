@@ -80,9 +80,9 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     | INS | SLCK |
 //                    |     |     |     |   |     |     | GAM |
             bindings = <
-    &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7    &kp N8 &kp N9      &kp N0  &trans
-    &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN  &kp UP &kp RIGHT   &kp DEL &trans
-    &trans &bt BT_CLR   &none        &none        &none        &none          &none    &kp RCTRL &none  &bootloader &kp INS &kp SLCK
+    &trans &kp N1       &kp N2       &kp N3       &kp N4       &kp N5         &kp N6   &kp N7    &kp N8 &kp N9    &kp N0  &bootloader
+    &trans &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4   &kp LEFT &kp DOWN  &kp UP &kp RIGHT &kp DEL &trans
+    &trans &bt BT_CLR   &none        &none        &none        &none          &none    &kp RCTRL &none  &trans    &kp INS &kp SLCK
                                      &kp LGUI     &trans       &trans         &trans   &trans    &to 5
             >;
             label = "Numbers";
@@ -95,9 +95,9 @@
 // | SHFT |     |     |     |     |     |   |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
             bindings = <
-    &trans &kp EXCL    &kp AT   &kp HASH  &kp DLLR     &kp PRCNT   &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &trans
-    &trans &kp PSCRN   &gbp     &kp GRAVE &kp QUESTION &kp PLUS    &kp EQUAL &kp LBRC &kp RBRC        &kp SLASH &kp TILDE &kp GRAVE
-    &trans &bootloader &ws LEFT &ws RIGHT &alt_f4      &kp MINUS   &kp PLUS  &kp LBKT &kp RBKT        &kp BSLH  &kp PIPE  &none
+    &bootloader &kp EXCL  &kp AT   &kp HASH  &kp DLLR     &kp PRCNT   &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &trans
+    &trans      &kp PSCRN &gbp     &kp GRAVE &kp QUESTION &kp PLUS    &kp EQUAL &kp LBRC &kp RBRC        &kp SLASH &kp TILDE &kp GRAVE
+    &trans      &trans    &ws LEFT &ws RIGHT &alt_f4      &kp MINUS   &kp PLUS  &kp LBKT &kp RBKT        &kp BSLH  &kp PIPE  &none
                                 &trans    &trans       &trans      &trans    &trans   &mo 4
             >;
             label = "Symbols";
